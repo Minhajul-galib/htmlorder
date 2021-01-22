@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1220px;
+	margin: 0 auto;
+}
+/*header*/
+header{
+	padding: 20px 0px 0px 0px;
+	float: left;
+	width: 100%;
+	background-color: #374869c7;
+	height: 109px;
+}
+.logo{
+width: 35%;
+float: left;
+
+}
+.logo img{
+
+width: 216px;
+
+height: 108px;
+}
+
+.menu{
+width: 65%;
+float: left;
+
+}
+.menu img{
+	width: 504px;
+	height: 69px;
+	margin: 13px 0px 35px 283px;
+	float:left;
+}
+.banner{
+	background-image: url(../img/Banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 800px;
+}
+
+.bandiv1{width: 5.5%;float: left;background-color: #192f4e00;height: 500px;}
+
+.bandiv2{
+	width: 47%;
+	float: left;
+	background-color: #153b7100;
+	height: 500px;
+}
+.bandiv2 h1{
+
+color: #b9dfff;
+
+padding: 95px 0px 0px 0px;
+
+font-size: 38px;
+}
+.bandiv2 h2{
+	
+color: white;
+	
+padding: 0px 0px 0px 0px;
+	
+font-size: 39px;
+}
+.bandiv3{
+	width: 44%;
+	float: left;
+	background-color: #ffffff59;
+	height: 404px;
+	margin-top: 104px;
+}
+.bandiv4{
+	width: 3%;
+	float: left;
+	background-color: #364c6b00;
+	height: 500px;
+}
+
+.description{
+background-color: #FFFFFF;
+width: 100%;
+height: 300px;
+
+}
+
+.descript{
+width: 100%;
+float: left;
+
+}
+
+.descript1{
+	width: 33.33%;
+	float: left;
+}
+
+.descript2{
+	float: left;
+	width: 33.33%;
+
+}
+
+.descript3{
+	width: 33.33%;
+	float: left;
+}
+
+
