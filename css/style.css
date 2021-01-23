@@ -12,19 +12,17 @@ header{
 	padding: 20px 0px 0px 0px;
 	float: left;
 	width: 100%;
-	background-color: #374869c7;
+	background-color: #37486900;
 	height: 109px;
 }
-.logo{
-width: 35%;
-float: left;
-
-}
+.logo{width: 35%;float: left;}
 .logo img{
 
-width: 216px;
+width: 195px;
 
-height: 108px;
+height: 129px;
+
+padding-left: 6px;
 }
 
 .menu{
@@ -35,8 +33,9 @@ float: left;
 .menu img{
 	width: 504px;
 	height: 69px;
-	margin: 13px 0px 35px 283px;
 	float:left;
+	margin-left: 268px;
+	padding-top: 25px;
 }
 .banner{
 	background-image: url(../img/Banner.png);
@@ -57,24 +56,28 @@ float: left;
 }
 .bandiv2 h1{
 
-color: #b9dfff;
+color: #7719AA;
 
-padding: 95px 0px 0px 0px;
+padding: 104px 0px 0px 0px;
 
 font-size: 38px;
+
+font-family: 'Kaushan Script', cursive;
 }
 .bandiv2 h2{
 	
-color: white;
+color: #F8EA97;
 	
-padding: 0px 0px 0px 0px;
+padding: 12px 0px 0px 0px;
 	
-font-size: 39px;
+font-size: 41px;
+	
+font-family: 'Arapey', serif;
 }
 .bandiv3{
 	width: 44%;
 	float: left;
-	background-color: #ffffff59;
+	background-color: #7719aa94;
 	height: 404px;
 	margin-top: 104px;
 }
@@ -88,7 +91,7 @@ font-size: 39px;
 .description{
 background-color: #FFFFFF;
 width: 100%;
-height: 300px;
+
 
 }
 
@@ -97,21 +100,109 @@ width: 100%;
 float: left;
 
 }
+.descript h1{
 
+text-align: center;
+
+margin: 50px 0px 33px 0px;
+
+font-size: 38px;
+
+color: #7719AA;
+
+font-family: 'Arapey', serif;
+}
 .descript1{
 	width: 33.33%;
 	float: left;
+	text-align: center;
+	padding-top: 35px;
+}
+.descript1 button{font-size: 34px;color: #7719AA;padding: 17px 28px 17px 28px;border-radius: 50px 50px 50px 50px;border: 3px dotted #7719AA;background-color: white;margin-bottom: 27px;}
+.descript1 h2{
+    color: #8D6025;
+    font-size: 31px;
+    padding-top: 0px;
+}
+.descript1 p{
+
+padding: 40px 40px 30px 40px;
+
+font-size: 18px;
+
+color: #946e0b;
 }
 
 .descript2{
-	float: left;
 	width: 33.33%;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
 
+}
+.descript2 button{
+	font-size: 34px;
+    color: #7719AA;
+    padding: 17px 28px 17px 28px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px dotted #7719AA;
+    background-color: white;
+    margin-bottom: 27px;
+}
+.descript2 h2{
+    color: #8D6025;
+    font-size: 29px;
+}
+.descript2 p{
+    padding: 15px 30px 30px 30px;
+    font-size: 18px;
+    color: #946e0b;
 }
 
 .descript3{
 	width: 33.33%;
-	float: left;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
+}
+.descript3 button{
+	font-size: 34px;
+    color: #7719AA;
+    padding: 17px 28px 17px 28px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px dotted #7719AA;
+    background-color: white;
+    margin-bottom: 27px;
+}
+.descript3 h2{
+    color: #8D6025;
+    font-size: 29px;
+}
+.descript3 p{
+
+	    padding: 15px 36px 30px 36px;
+    font-size: 18px;
+    color: #946e0b;
 }
 
-
+.footer{
+background-color: #9247BB;
+width: 100%;
+float: left;
+}
+.footer1{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.footer1 i{
+	
+padding: 12px 0px 12px 0px;
+	
+color: white;
+}
+.fas {
+       
+        font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 11px;}
