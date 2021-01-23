@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
 header {
     width: 100%;
@@ -27,7 +27,9 @@ header {
 section.banner {
     width: 100%;
     height: 1210px;
+    background-image: url(../img/tablogo.png);
 }
+
 .bandiv1 {
     width: 0%;
 }
@@ -40,50 +42,50 @@ section.banner {
     font-size: 55px;
 }
 .bandiv2 h2 {
-    padding: 30px 0px 0px 0px;
-    font-size: 70px;
+    padding: 30px 50px 0px 50px;
+    font-size: 52px;
 }
 .bandiv3 {
-    width: 75%;
-    margin: 15px 0px 0px 135px;
+    width: 80%;
+    margin: 65px 0px 0px 80px;
     text-align: center;
+    height: 377px;
+    box-shadow: 0px 0px 2px 0px #FFFFFF;
 }
 label {
-    margin: 10px 44px 0px 42px;
-    padding: 0px 0px 0px 15px;
-    font-size: 36px;
-        box-shadow: 0px 1px 6px #1F1F1F;
+    margin: 10px 30px 0px 30px;
+    padding: 0px 0px 0px 8px;
+    font-size: 24px;
+    box-shadow: 0px 1px 6px #1F1F1F;
 }
 label:hover{
 box-shadow: 0px 1px 6px #FFFFFF;
 }
 input[type="text"] {
-    font-size: 29px;
-    margin-left: 18px;
-    padding: 18px 30px 18px 9px;
+    font-size: 22px;
+    margin-left: 6px;
+    padding: 12px 140px 12px 7px;
 }
 
 .descript h1 {
-    margin: 20px 0px 70px 0px;
-    font-size: 52px;
+    margin: 40px 50px 60px 50px;
+    font-size: 44px;
+}
+form {
+    width: 100%;
 }
 input[type="email"] {
-    font-size: 29px;
-    margin-left: 86px;
-    padding: 18px 30px 18px 9px;
-}
-input[type="submit"] {
-    padding: 17px 50px 17px 50px;
-    margin: 40px 20px 0px 0px;
-    font-size: 26px;
+    font-size: 22px;
+    margin-left: 51px;
+    padding: 12px 140px 12px 7px;
 }
 input[type="submit"]:hover{
 box-shadow: 0px 1px 2px 2px #000000ad;
 }
 input[type="submit"] {
-    padding: 17px 50px 17px 50px;
-    margin: 40px 20px 0px 0px;
-    font-size: 26px;
+    padding: 12px 10px 12px 10px;
+    margin: 30px 210px 0px 210px;
+    font-size: 24px;
 }
 .descript {
     width: 100%;
@@ -115,7 +117,7 @@ input[type="submit"] {
    }
 
 
-@media only screen and (min-width: 480px){
+@media only screen and (max-width: 480px){
   /* For mobile phones: */
 header {
     width: 100%;
@@ -137,72 +139,70 @@ header {
     width: 100%;
 }
 .menu img {
-    width: 650px;
-    height: 94px;
-    margin-left: 164px;
-    margin-right: 164px;
+    width: 100%;
+    height: 95px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 section.banner {
     width: 100%;
     height: 1210px;
+    background-image: url(../img/mobilebaner.png);
 }
 .bandiv1 {
     width: 0%;
 }
+
 .bandiv2 {
     width: 100%;
     padding-top: 90px;
 }
+
 .bandiv2 h1 {
-    padding: 104px 0px 0px 0px;
-    font-size: 55px;
+    padding: 104px 4px 0px 10px;
+    font-size: 40px;
 }
 .bandiv2 h2 {
-    padding: 30px 0px 0px 0px;
-    font-size: 70px;
+    padding: 30px 50px 0px 50px;
+    font-size: 46px;
 }
 .bandiv3 {
-    width: 75%;
-    margin: 15px 0px 0px 135px;
+    width: 80%;
+    margin: 72px 0px 0px 48px;
     text-align: center;
 }
 label {
-    margin: 10px 44px 0px 42px;
-    padding: 0px 0px 0px 15px;
-    font-size: 36px;
-        box-shadow: 0px 1px 6px #1F1F1F;
+    margin: 10px 6px 0px 15px;
+    padding: 0px 0px 0px 3px;
+    font-size: 20px;
+    box-shadow: 0px 1px 6px #1F1F1F;
 }
 label:hover{
 box-shadow: 0px 1px 6px #FFFFFF;
 }
 input[type="text"] {
-    font-size: 29px;
-    margin-left: 18px;
-    padding: 18px 30px 18px 9px;
+    font-size: 19px;
+    margin-left: 5px;
+    padding: 10px 16px 10px 7px;
 }
-
 .descript h1 {
-    margin: 20px 0px 70px 0px;
-    font-size: 52px;
+    margin: 30px 65px 70px 65px;
+    font-size: 34px;
 }
 input[type="email"] {
-    font-size: 29px;
-    margin-left: 86px;
-    padding: 18px 30px 18px 9px;
+    font-size: 19px;
+    margin-left: 41px;
+    padding: 10px 15px 10px 8px;
 }
 input[type="submit"] {
-    padding: 17px 50px 17px 50px;
-    margin: 40px 20px 0px 0px;
-    font-size: 26px;
+    padding: 12px 50px 12px 50px;
+    margin: 30px 110px 0px 110px;
+    font-size: 20px;
 }
 input[type="submit"]:hover{
 box-shadow: 0px 1px 2px 2px #000000ad;
 }
-input[type="submit"] {
-    padding: 17px 50px 17px 50px;
-    margin: 40px 20px 0px 0px;
-    font-size: 26px;
-}
+
 .descript {
     width: 100%;
 }
@@ -227,7 +227,8 @@ input[type="submit"] {
  	
 }
 .footer1 i {
-    font-size: 22px;
+    font-size: 15px;
+    padding: 8px 0px 3px 0px;
 }
 
 

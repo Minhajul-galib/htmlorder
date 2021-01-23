@@ -88,6 +88,7 @@ text-align: center;
 	background-color: #7719aa94;
 	height: 404px;
 	margin-top: 104px;
+	box-shadow: 0px 0px 2px 0px #FFFFFF;
 }
 .bandiv3 h2{text-align: center;color: #F8EA97;font-family: 'Arapey', serif;padding: 50px 0px 32px 0px;}
 form{
@@ -118,25 +119,16 @@ margin-left: 9px;
 
 padding: 12px 122px 12px 7px;
 }
-input[type="submit"]{
-
-margin: 33px 0px 0px 187px;
-
-text-align: center;
-
-padding: 12px 43px 12px 43px;
-
-font-size: 18px;
-
-color: white;
-
-background: #8d602596;
-
-border: 0px solid #000000;
-
-border-radius: 0px 0px 0px 0px;
-
-box-shadow: 0px 1px 2px 1px #ffffff87;
+input[type="submit"] {
+    margin: 33px 119px 0px 162px;
+    text-align: center;
+    padding: 14px 43px 14px 43px;
+    font-size: 18px;
+    color: white;
+    background: #8d602596;
+    border: 0px solid #000000;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 1px 2px 1px #ffffff87;
 }
 input[type="submit"]:hover{
 box-shadow: 0px 1px 2px 2px #000000ad;
