@@ -86,13 +86,14 @@ text-align: center;
 
 	.power{
 
-animation: power 3.2s infinite;
+animation: power 1.2s infinite;
+animation-delay: 0s
 }
 @keyframes power{
     0%{     color: #F8EA97;    }
     49%{    color: #7719AA; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
+    60%{    color: #000000; }
+    99%{    color: #000000;  }
     100%{   color: #DDAD31;    }
 }
 

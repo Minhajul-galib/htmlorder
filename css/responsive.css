@@ -1,4 +1,94 @@
 
+@media only screen and (max-width: 991px){
+/*991 WIDTH*/
+
+header {
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 36%;
+}
+.logo img {
+    width: 150px;
+    height: 126px;
+    padding-left: 34px;
+}
+.menu {
+    width: 64%;
+}
+.menu img {
+    width: 546px;
+    height: 74px;
+    margin-left: 88px;
+    margin-top: -12px;
+}
+.bandiv4 {
+    width: 1.5%;
+}
+.bandiv3 {
+    width: 48.5%;
+}.bandiv2 {
+    width: 48.5%;
+}
+.bandiv2 h1 {
+    font-size: 34px;
+}
+.bandiv2 h2 {
+    font-size: 44px;
+}
+.bandiv1 {
+    width: 1.5%;
+}
+.descript {
+    width: 100%;
+}
+.descript h1 {
+    margin: 42px 0px 53px 0px;
+    font-size: 36px;
+}
+.descript1 {
+    width: 33.33%;
+}
+.descript1 h2 {
+    font-size: 24px;
+}
+.descript1 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript2 {
+    width: 33.33%;
+}
+.descript2 h2 {
+    font-size: 24px;
+}
+.descript2 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript3 {
+    width: 33.33%;
+}
+.descript3 h2 {
+    font-size: 24px;
+}
+.descript3 p {
+    padding: 20px 15px 40px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+}
+
 @media only screen and (max-width: 768px) {
   /* For tab phones: */
 header {
@@ -386,3 +476,4 @@ input[type="submit"] {
 }
 
 }
+
