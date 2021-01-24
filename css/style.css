@@ -106,7 +106,6 @@ animation-delay: 0s
 	box-shadow: 0px 0px 2px 0px #FFFFFF;
 }
 .bandiv3:hover {
-    margin: 102px 0px 0px 0px;
     transition-duration: .3s;
     box-shadow: 0px 14px 27px -17px #ffffff6b;
 }
