@@ -54,6 +54,7 @@ float: left;
 	background-color: #153b7100;
 	height: 500px;
 }
+
 .bandiv2 h1{
 
 color: #7719AA;
@@ -66,7 +67,7 @@ font-family: 'Kaushan Script', cursive;
 
 font-weight: 500;
 
-text-align: center;
+    text-align: center;
 }
 .bandiv2 h2{
 	
@@ -82,6 +83,21 @@ font-weight: 500;
 	
 text-align: center;
 }
+
+	.power{
+
+animation: power 3.2s infinite;
+}
+@keyframes power{
+    0%{     color: #F8EA97;    }
+    49%{    color: #7719AA; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #DDAD31;    }
+}
+
+
+	
 .bandiv3{
 	width: 42%;
 	float: left;
@@ -89,6 +105,11 @@ text-align: center;
 	height: 404px;
 	margin-top: 104px;
 	box-shadow: 0px 0px 2px 0px #FFFFFF;
+}
+.bandiv3:hover {
+    margin: 102px 0px 0px 0px;
+    transition-duration: .3s;
+    box-shadow: 0px 14px 27px -17px #ffffff6b;
 }
 .bandiv3 h2{text-align: center;color: #F8EA97;font-family: 'Arapey', serif;padding: 50px 0px 32px 0px;}
 form{
@@ -163,13 +184,14 @@ input.visited {
 .descript{
 width: 100%;
 float: left;
+;
 
 }
 .descript h1{
 
 text-align: center;
 
-margin: -286px 0px 72px 0px;
+margin: -300px 0px 72px 0px;
 
 font-size: 38px;
 
