@@ -10,33 +10,29 @@
 }
 /*header*/
 header{
-	padding: 20px 0px 0px 0px;
 	float: left;
 	width: 100%;
-	background-color: #37486900;
-	height: 109px;
+	background-color: #ffffff;
+	height: 92px;
+
 }
 .logo{width: 35%;float: left;}
 .logo img{
 
-width: 191px;
+width: 148px;
 
-height: 128px;
+height: 96px;
 
-padding-left: 11px;
+padding-left: 20px;
 }
 
-.menu{
-width: 65%;
-float: left;
-
-}
+.menu{width: 65%;float: left;text-align: center;}
 .menu img{
 	width: 504px;
 	height: 69px;
 	float:left;
-	margin-left: 268px;
-	padding-top: 25px;
+	margin-left: 278px;
+	padding-top: 9px;
 }
 .banner{
 	background-image: url(../img/Banner.png);
@@ -44,7 +40,7 @@ float: left;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
-	height: 800px;
+	height: 670px;
 }
 .bandiv1{width: 5.5%;float: left;background-color: #192f4e00;height: 500px;}
 
@@ -57,17 +53,17 @@ float: left;
 
 .bandiv2 h1{
 
-color: #7719AA;
+color: #ffffff;
 
 padding: 97px 71px 5px 0px;
 
-font-size: 39px;
+font-size: 26px;
 
-font-family: 'Kaushan Script', cursive;
+font-family: 'Lora', serif;
 
-font-weight: 500;
+font-weight: 100;
 
-    text-align: center;
+text-align: center;
 }
 .bandiv2 h2{
 	
@@ -75,25 +71,27 @@ color: #F8EA97;
 	
 padding: 12px 88px 0px 0px;
 	
-font-size: 51px;
+font-size: 67px;
 	
-font-family: 'Arapey', serif;
-	
-font-weight: 500;
+font-weight: 300;
 	
 text-align: center;
+	
+font-family: 'Yanone Kaffeesatz', sans-serif;
+	
+line-height: 86px;
 }
 
 	.power{
 
-animation: power 1.2s infinite;
+animation: power 1.8s infinite;
 animation-delay: 0s
 }
 @keyframes power{
     0%{     color: #F8EA97;    }
     49%{    color: #7719AA; }
-    60%{    color: #000000; }
-    99%{    color: #000000;  }
+    60%{    color: #FFFFFF; }
+    99%{    color: #FFFFFF;  }
     100%{   color: #DDAD31;    }
 }
 
@@ -188,17 +186,12 @@ float: left;
 ;
 
 }
-.descript h1{
-
-text-align: center;
-
-margin: -300px 0px 72px 0px;
-
-font-size: 38px;
-
-color: #7719AA;
-
-font-family: 'Arapey', serif;
+.descript h1 {
+    text-align: center;
+    margin: -370px 0px 41px 0px;
+    font-size: 26px;
+    color: #7719AA;
+    font-family: 'Chakra Petch', sans-serif;
 }
 .descript1{
 	width: 33.33%;
@@ -208,17 +201,24 @@ font-family: 'Arapey', serif;
 }
 .descript1 button{font-size: 34px;color: #7719AA;padding: 17px 28px 17px 28px;border-radius: 50px 50px 50px 50px;border: 3px dotted #7719AA;background-color: white;margin-bottom: 27px;}
 .descript1 h2{
-    color: #8D6025;
-    font-size: 31px;
-    padding-top: 10px;
+    color: #8d6025;
+    font-size: 21px;
+    padding-top: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 .descript1 p{
 
-padding: 40px 40px 70px 40px;
+padding: 8px 35px 83px 35px;
 
-font-size: 18px;
+font-size: 16px;
 
-color: #946e0b;
+color: #000000;
+
+line-height: 21px;
+
+font-weight: inherit;
+
+font-family: 'Inter', sans-serif;
 }
 
 .descript2{
@@ -238,14 +238,11 @@ color: #946e0b;
     margin-bottom: 27px;
 }
 .descript2 h2{
-    color: #8D6025;
-    font-size: 29px;
+    color: #8d6025;
+    font-size: 21px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-.descript2 p{
-    padding: 15px 30px 30px 30px;
-    font-size: 18px;
-    color: #946e0b;
-}
+.descript2 p{padding: 8px 35px 83px 35px;font-size: 16px;color: #000000;line-height: 21px;font-family: 'Inter', sans-serif;}
 
 .descript3{
 	width: 33.33%;
@@ -264,20 +261,12 @@ color: #946e0b;
 }
 .descript3 h2{
     color: #8D6025;
-    font-size: 29px;
+    font-size: 21px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-.descript3 p{
+.descript3 p{padding: 8px 33px 83px 33px;font-size: 16px;color: #000000;line-height: 21px;font-family: 'Inter', sans-serif;}
 
-	    padding: 15px 36px 30px 36px;
-    font-size: 18px;
-    color: #946e0b;
-}
-
-.footer{
-background-color: #9247BB;
-width: 100%;
-float: left;
-}
+.footer{background-color: #252525;width: 100%;float: left;}
 .footer1{
 	text-align: center;
 	float: left;
@@ -285,9 +274,9 @@ float: left;
 }
 .footer1 i{
 	
-padding: 12px 0px 12px 0px;
+padding: 14px 0px 6px 0px;
 	
-color: white;
+color: #efefef;
 }
 .fas {
        
