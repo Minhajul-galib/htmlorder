@@ -1,10 +1,189 @@
-
-@media only screen and (max-width: 320px){
-/*SMALL mobile*/
+@media only screen and (max-width: 1024px){
+    /*Main width*/
 header {
- 
     width: 100%;
+    height: 121px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 36%;
+}
+.logo img {
+    width: 143px;
+    height: 118px;
+    padding-left: 34px;
+}
 
+.menu {
+    width: 64%;
+}
+.menu img {
+    width: 480px;
+    height: 69px;
+    margin-left: 164px;
+    margin-top: 10px;
+}
+.bandiv4 {
+    width: 1.5%;
+}
+.bandiv3 {
+    width: 48.5%;
+}.bandiv2 {
+    width: 48.5%;
+}
+.bandiv2 h1 {
+    font-size: 28px;
+}
+.bandiv2 h2 {
+    font-size: 55px;
+    line-height: 53px;
+}
+.bandiv1 {
+    width: 1.5%;
+}
+.descript {
+    width: 100%;
+}
+.descript h1 {
+    margin: 42px 0px 53px 0px;
+    font-size: 36px;
+}
+.descript1 {
+    width: 33.33%;
+}
+.descript1 h2 {
+    font-size: 24px;
+}
+.descript1 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript2 {
+    width: 33.33%;
+}
+.descript2 h2 {
+    font-size: 24px;
+}
+.descript2 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript3 {
+    width: 33.33%;
+}
+.descript3 h2 {
+    font-size: 24px;
+}
+.descript3 p {
+    padding: 20px 15px 40px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+}
+
+@media only screen and (max-width: 991px){
+/*991 WIDTH*/
+
+header {
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 36%;
+}
+.logo img {
+    width: 150px;
+    height: 126px;
+    padding-left: 34px;
+}
+.menu {
+    width: 64%;
+}
+.menu img {
+    width: 546px;
+    height: 74px;
+    margin-left: 88px;
+    margin-top: -12px;
+}
+.bandiv4 {
+    width: 1.5%;
+}
+.bandiv3 {
+    width: 48.5%;
+}.bandiv2 {
+    width: 48.5%;
+}
+.bandiv2 h1 {
+    font-size: 34px;
+}
+.bandiv2 h2 {
+    font-size: 44px;
+}
+.bandiv1 {
+    width: 1.5%;
+}
+.descript {
+    width: 100%;
+}
+.descript h1 {
+    margin: 42px 0px 53px 0px;
+    font-size: 36px;
+}
+.descript1 {
+    width: 33.33%;
+}
+.descript1 h2 {
+    font-size: 24px;
+}
+.descript1 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript2 {
+    width: 33.33%;
+}
+.descript2 h2 {
+    font-size: 24px;
+}
+.descript2 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript3 {
+    width: 33.33%;
+}
+.descript3 h2 {
+    font-size: 24px;
+}
+.descript3 p {
+    padding: 20px 15px 40px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For tab phones: */
+header {
+    width: 100%;
+    height: 170px;
 }
 .container {
     width: 100%;
@@ -14,167 +193,659 @@ header {
     text-align: center;
 }
 .logo img {
-    width: 148px;
-    height: 96px;
+    width: 225px;
+    height: 171px;
     padding-left: 0px;
 }
-menu {
-   display: none;
+.menu {
+    width: 100%;
+}
+.menu img {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 section.banner {
     width: 100%;
-    background-image: url(../img/smallphone.png);
+    height: 1210px;
+    background-image: url(../img/tablogo.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    background-position-x: -46px;
-    background-position-y: 0px;
+    background-attachment: fixed;
 }
-.banner1 {
-    width: 100%;
-}
+
 .bandiv1 {
-display: none;
+    width: 0%;
 }
-.bandiv2{
-	width: 100%;
-	text-align: center;
+.bandiv2 {
+    width: 100%;
+    padding-top: 90px;
 }
 .bandiv2 h1 {
-    font-size: 14px;
-    padding: 15px 40px 0px 36px;
+    padding: 104px 0px 0px 0px;
+    font-size: 34px;
 }
 .bandiv2 h2 {
-    text-align: center;
-    font-size: 14px;
-    padding: 0px 0px 0px 0px;
+    padding: 30px 50px 0px 50px;
+    font-size: 64px;
 }
 .bandiv3 {
     width: 80%;
+    margin: 0px 0px 0px 80px;
     text-align: center;
-    height: 209px;
-    margin: -259px 0px 0px 30px;
-}
-.bandiv3 h2 {
-    text-align: center;
-    padding: 11px 0px 9px 0px;
-}
-.bandiv3 form{
-    width: 80%;
-    text-align: center;
-
+    height: 377px;
+    box-shadow: 0px 0px 2px 0px #FFFFFF;
 }
 label {
-    margin: 8px -17px 0px -17px;
-    padding: 0px 0px 0px 0px;
-    font-size: 15px;
+    margin: 10px 30px 0px 30px;
+    padding: 0px 0px 0px 8px;
+    font-size: 24px;
+    box-shadow: 0px 1px 6px #1F1F1F;
+}
+label:hover{
+box-shadow: 0px 1px 6px #FFFFFF;
 }
 input[type="text"] {
-    font-size: 13px;
-    padding: 7px 0px 7px 1px;
-    margin: 0px -4px 0px 8px;
-    width: 159px;
+    font-size: 22px;
+    margin-left: 17px;
+    padding: 12px 148px 12px 7px;
 }
 
+.descript h1 {
+    margin: 40px 50px 60px 50px;
+    font-size: 37px;
+}
+form {
+    width: 100%;
+}
 input[type="email"] {
-    font-size: 12px;
-    margin: 0px -4px 0px 37px;
-    padding: 8px 0px 8px 1px;
-    width: 159px;
+    font-size: 22px;
+    margin-left: 63px;
+    padding: 12px 147px 12px 7px;
+}
+input[type="submit"]:hover{
+box-shadow: 0px 1px 2px 2px #000000ad;
 }
 input[type="submit"] {
-    padding: 9px 0px 9px 0px;
-    font-size: 15px;
-    margin: 18px 50px 0px 50px;
-}
-.bandiv4{
-	display: none;
-}
-
-section.description{
-	width: 100%;
-
+    padding: 12px 10px 12px 10px;
+    margin: 30px 210px 0px 210px;
+    font-size: 24px;
 }
 .descript {
     width: 100%;
 }
-.descript h1 {
-    text-align: center;
-    margin: 17px 40px 0px 30px;
-    font-size: 16px;
-}
 .descript1 {
     width: 100%;
-    margin: 0px 0px -52px 0px;
-}
-.descript1 button {
-    font-size: 26px;
-    color: #7719AA;
-    padding: 7px 16px 7px 16px;
-    margin: 24px 0px 20px 0px;
-}
-.descript1 h2 {
-  
-    font-size: 14px;
-    padding: 0px 0px 0px 0px;
 }
 .descript1 p {
-    margin: 8px 10px 0px 10px;
-    
-    font-size: 13px;
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
 }
 .descript2 {
     width: 100%;
-    margin: 0px 0px -52px 0px;
-}
-.descript2 button {
-    font-size: 26px;
-    color: #7719AA;
-    padding: 7px 16px 7px 16px;
-    margin: 0px 0px 15px 0px;
-}
-.descript2 h2 {
-  
-    font-size: 14px;
-    padding: 0px 0px 0px 0px;
 }
 .descript2 p {
-    margin: 8px 15px 0px 15px;
-    
-    font-size: 13px;
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
 }
 .descript3 {
     width: 100%;
-    
-}
-.descript3 button {
-    font-size: 26px;
-    color: #7719AA;
-    padding: 7px 16px 7px 16px;
-    margin: 24px 0px 20px 0px;
-}
-.descript3 h2 {
-  
-    font-size: 14px;
-    padding: 0px 0px 0px 0px;
 }
 .descript3 p {
-    margin: 8px 15px 0px 15px;
-    font-size: 13px;
-}
-section.footer {
-    width: 100%;
-}
-.footer1 {
-    text-align: center;
-    
-    width: 100%;
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
 }
 .footer1 i {
+    font-size: 18px;
+}
+   }
+
+
+@media only screen and (max-width: 480px){
+  /* For mobile phones: */
+header {
+    width: 100%;
+    
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    text-align: center;
+}
+.logo img {
+    width: 225px;
+    height: 171px;
+    padding-left: 0px;
+}
+.menu {
+    width: 100%;
+}
+.menu img {
+    width: 100%;
+    height: 95px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+section.banner {
+    width: 100%;
+    height: 1210px;
+    background-image: url(../img/mobilebaner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bandiv1 {
+    width: 0%;
+}
+
+.bandiv2 {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.bandiv2 h1 {
+    padding: 104px 4px 0px 10px;
+    font-size: 40px;
+}
+.bandiv2 h2 {
+    padding: 30px 50px 0px 50px;
+    font-size: 46px;
+}
+.bandiv3 {
+    width: 80%;
+    margin: 72px 0px 0px 48px;
+    text-align: center;
+}
+label {
+    margin: 10px 6px 0px 15px;
+    padding: 0px 0px 0px 3px;
+    font-size: 20px;
+    box-shadow: 0px 1px 6px #1F1F1F;
+}
+label:hover{
+box-shadow: 0px 1px 6px #FFFFFF;
+}
+input[type="text"] {
+    font-size: 19px;
+    margin-left: 5px;
+    padding: 10px 16px 10px 7px;
+}
+.descript h1 {
+    margin: 30px 65px 70px 65px;
+    font-size: 34px;
+}
+input[type="email"] {
+    font-size: 19px;
+    margin-left: 41px;
+    padding: 10px 15px 10px 8px;
+}
+input[type="submit"] {
+    padding: 12px 50px 12px 50px;
+    margin: 30px 110px 0px 110px;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+box-shadow: 0px 1px 2px 2px #000000ad;
+}
+
+.descript {
+    width: 100%;
+}
+.descript1 {
+    width: 100%;
+}
+.descript1 p {
+    padding: 20px 70px 60px 70px;
+}
+.descript2 {
+    width: 100%;
+}
+.descript2 p{
+    padding: 30px 95px 60px 95px;
+
+}
+.descript3 {
+    width: 100%;
+}
+.descript3 p{
+    padding: 30px 75px 70px 75px;
+    
+}
+.footer1 i {
+    font-size: 15px;
+    padding: 8px 0px 3px 0px;
+}
+
+
+ }
+ @media only screen and (max-width: 425px){
+    /*PHPON*/
+
+header {
+    width: 100%;
+    height: 162px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    text-align: center;
+}
+.logo img {
+    width: 225px;
+    height: 171px;
+    padding-left: 0px;
+}
+.menu {
+    width: 100%;
+}
+.menu img {
+    display: none;
+}
+section.banner {
+    width: 100%;
+    background-image: url(../img/mobilebaner.png);
+    background-repeat: no-repeat;
+    background-size: 426px;
+    background-attachment: fixed;
+    height: 887px;
+}
+
+.bandiv1 {
+    width: 0%;
+}
+
+.bandiv2 {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.bandiv2 h1 {
+    font-size: 23px;
+    margin: -140px 0px 0px 0px;
+}
+.bandiv2 h2 {
+    padding: 30px 50px 0px 50px;
+    font-size: 47px;
+    line-height: 41px;
+}
+.bandiv3 {
+    width: 92%;
+    margin: -239px 0px 0px 17px;
+    height: 300px;
+    text-align: center;
+}
+.bandiv3 h2 {
+    padding: 25px 0px 20px 0px;
+}
+label {
+    margin: 10px 13px 0px 12px;
+    padding: 0px 0px 0px 7px;
+    font-size: 20px;
+    box-shadow: 0px 1px 6px #1F1F1F;
+}
+label:hover{
+box-shadow: 0px 1px 6px #FFFFFF;
+}
+input[type="text"] {
+    font-size: 19px;
+    margin-left: 6px;
+    padding: 10px 16px 10px 7px;
+}
+.descript h1 {
+    margin: -337px 0px 70px 0px;
+    font-size: 25px;
+}
+input[type="email"] {
+    font-size: 19px;
+    margin-left: 44px;
+    padding: 10px 16px 10px 6px;
+}
+input[type="submit"] {
+    padding: 12px 50px 12px 50px;
+    margin: 30px 110px 0px 110px;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+box-shadow: 0px 1px 2px 2px #000000ad;
+}
+
+.descript {
+    width: 100%;
+}
+.descript1 {
+    width: 100%;
+}
+.descript1 button {
+    margin: -25px 0px 25px 0px;
+}
+.descript1 p {
+    padding: 20px 15px 60px 15px;
+    font-size: 16px;
+}
+.descript2 {
+    width: 100%;
+}
+.descript2 p {
+    padding: 20px 15px 60px 15px;
+    font-size: 16px;
+}
+.descript3 {
+    width: 100%;
+}
+.descript3 p {
+    padding: 20px 15px 60px 15px;
+    font-size: 16px;
+}
+.footer1 i {
+    font-size: 15px;
+    padding: 8px 0px 3px 0px;
+}
+
+}
+
+@media only screen and (max-width: 375px){
+/*Phone*/
+header {
+    width: 100%;
+    height: 124px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+
+}
+.logo img {
+    width: 140px;
+    height: 119px;
+}
+
+.menu {
+    width: 100%;
+}
+.menu img {
+    width: 275px;
+    height: 70px;
+    margin: -29px 0px 0px 20px;
+    display: none;
+}
+
+section.banner {
+    width: 100%;
+    height: 736px;
+    background-image: url(../img/smallphone.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 0px;
+    background-position-y: 108px;
+    background-size: 377px;
+}
+
+.bandiv2 {
+    width: 100%;
+    padding-top: 65px;
+}
+.bandiv2 h1 {
+    font-size: 20px;
+    padding: 0px 5px 0px 5px;
+    margin: -30px 0px 0px 0px;
+}
+.bandiv2 h2 {
+    font-size: 32px;
+    padding: 0px 10px 0px 10px;
+    line-height: 41px;
+}
+.bandiv3 {
+    width: 85%;
+    margin: -336px 0px 0px 29px;
+    height: 230px;
+}
+
+.bandiv3 h2 {
+    padding: 15px 0px 14px 0px;
+    font-weight: 600;
+}
+form {
+    width: 100%;
+}
+
+label {
+    margin: 4px 6px 0px 7px;
+    font-size: 18px;
+    padding: 0px 0px 0px 7px;
+}
+input[type="text"] {
+    font-size: 15px;
+    margin-left: 7px;
+    padding: 10px 14px 10px 5px;
+}
+input[type="email"] {
+    font-size: 15px;
+    margin-left: 41px;
+    padding: 10px 13px 10px 5px;
+}
+input[type="submit"] {
+    padding: 9px 0px 9px 0px;
+    font-size: 15px;
+    margin: 30px 80px 0px 80px;
+}
+.descript h1 {
+    padding: 0px 8px 0px 8px;
+    margin: -569px 0px 0px 0px;
+    font-size: 20px;
+}
+.descript1 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript1 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript1 p {
+    padding: 8px 13px 0px 13px;
+    font-size: 14px;
+}
+
+.descript2 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript2 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript2 p {
+    padding: 8px 13px 0px 13px;
+    font-size: 14px;
+}
+
+.descript3 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript3 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript3 p {
+    padding: 8px 13px 38px 13px;
+    font-size: 14px;
+}
+
+.footer1 i {
+    font-size: 12px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+/*SMALL phone*/
+
+header {
+    width: 100%;
+    height: 110px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+
+}
+.logo img {
+    width: 140px;
+    height: 119px;
+}
+
+.menu {
+    width: 100%;
+}
+.menu img {
+    width: 275px;
+    height: 70px;
+    margin: -29px 0px 0px 20px;
+}
+
+section.banner {
+    width: 100%;
+    height: 736px;
+    background-image: url(../img/smallphone.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: -21px;
+    background-position-y: 108px;
+    background-size: 366px;
+}
+
+.bandiv2 {
+    width: 100%;
+    padding-top: 65px;
+}
+.bandiv2 h1 {
+    font-size: 17px;
+    padding: 0px 5px 0px 5px;
+}
+.bandiv2 h2 {
+    font-size: 26px;
+    padding: 0px 10px 0px 10px;
+    line-height: 37px;
+}
+.bandiv3 {
+    width: 85%;
+    margin: -333px 0px 0px 25px;
+    height: 230px;
+}
+
+.bandiv3 h2 {
+    padding: 15px 0px 14px 0px;
+    font-weight: 600;
+}
+form {
+    width: 100%;
+}
+
+label {
+    margin: 4px 10px 0px 11px;
+    font-size: 16px;
+    padding: 0px 0px 0px 6px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    margin-left: 6px;
+    padding: 10px 0px 10px 6px;
+}
+
+input[type="email"] {
+    font-size: 12px;
+    margin-left: 36px;
+    padding: 8px 14px 8px 4px;
+}
+input[type="submit"] {
+    padding: 9px 0px 9px 0px;
+    font-size: 15px;
+    margin: 30px 80px 0px 80px;
+}
+.descript h1 {
     padding: 0px 0px 0px 0px;
-    color: #efefef;
-    font-size: 10px;
+    margin: -569px 0px 0px 0px;
+    font-size: 20px;
+}
+.descript1 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript1 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript1 p {
+    padding: 8px 13px 0px 13px;
+    font-size: 14px;
+}
+
+.descript2 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript2 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript2 p {
+    padding: 8px 13px 0px 13px;
+    font-size: 14px;
+}
+
+.descript3 button {
+    font-size: 20px;
+    padding: 14px 22px 14px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Arapey', serif;
+}
+.descript3 h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.descript3 p {
+    padding: 8px 13px 38px 13px;
+    font-size: 14px;
+}
+
+.footer1 i {
+    font-size: 12px;
 }
 
 }
