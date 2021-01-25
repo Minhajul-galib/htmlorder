@@ -381,11 +381,15 @@ input[type="email"] {
     font-size: 19px;
     margin-left: 41px;
     padding: 10px 15px 10px 8px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="submit"] {
     padding: 12px 50px 12px 50px;
     margin: 30px 110px 0px 110px;
     font-size: 20px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="submit"]:hover{
 box-shadow: 0px 1px 2px 2px #000000ad;
@@ -495,6 +499,8 @@ input[type="text"] {
     font-size: 19px;
     margin-left: 6px;
     padding: 10px 16px 10px 7px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 .descript h1 {
     margin: -337px 0px 70px 0px;
@@ -504,6 +510,8 @@ input[type="email"] {
     font-size: 19px;
     margin-left: 44px;
     padding: 10px 16px 10px 6px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="submit"] {
     padding: 12px 50px 12px 50px;
@@ -624,11 +632,15 @@ input[type="text"] {
     font-size: 15px;
     margin-left: 7px;
     padding: 10px 14px 10px 5px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="email"] {
     font-size: 15px;
     margin-left: 41px;
     padding: 10px 13px 10px 5px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="submit"] {
     padding: 9px 0px 9px 0px;
@@ -776,12 +788,18 @@ input[type="text"] {
     font-size: 14px;
     margin-left: 6px;
     padding: 10px 0px 10px 6px;
+    width: 161px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 
 input[type="email"] {
-    font-size: 12px;
-    margin-left: 36px;
-    padding: 8px 14px 8px 4px;
+    font-size: 13px;
+    margin-left: 35px;
+    padding: 8px 15px 8px 4px;
+    width: 151px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid;
 }
 input[type="submit"] {
     padding: 9px 0px 9px 0px;
@@ -802,7 +820,7 @@ input[type="submit"] {
     font-family: 'Arapey', serif;
 }
 .descript1 h2 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
 }
 .descript1 p {
@@ -819,7 +837,7 @@ input[type="submit"] {
     font-family: 'Arapey', serif;
 }
 .descript2 h2 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
 }
 .descript2 p {
@@ -836,7 +854,7 @@ input[type="submit"] {
     font-family: 'Arapey', serif;
 }
 .descript3 h2 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
 }
 .descript3 p {
