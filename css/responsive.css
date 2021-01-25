@@ -625,30 +625,40 @@ form {
 }
 
 label {
-    margin: 4px 6px 0px 7px;
-    font-size: 18px;
-    padding: 0px 0px 0px 7px;
+       font-size: 17px;
+    padding: 8px 2px 8px 4px;
+    width: 26%;
+    margin: 0px 0px 0px 0px;
 }
+
+
+
 input[type="text"] {
-    font-size: 15px;
-    margin-left: 7px;
-    padding: 10px 14px 10px 5px;
-    border-radius: 0px 0px 0px 0px;
+      font-size: 15px;
+    padding: 11px 0px 12px 5px;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
-    width: 195px;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 57%;
+    margin: 0px 0px 0px 0px;
 }
+
+
 input[type="email"] {
-    font-size: 15px;
-    margin-left: 41px;
-    padding: 10px 13px 10px 5px;
-    border-radius: 0px 0px 0px 0px;
+       font-size: 15px;
+    padding: 11px 0px 12px 5px;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
-    width: 196px;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 57%;
+    margin: 0px 0px 0px 0px;
 }
 input[type="submit"] {
-    padding: 9px 0px 9px 0px;
-    font-size: 15px;
-    margin: 30px 80px 0px 80px;
+    padding: 12px 0px 12px 0px;
+    font-size: 20px;
+    margin: 15px 43px 0px 0px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 1px 3px #1F1F1F;
 }
 .descript h1 {
     padding: 0px 8px 0px 8px;
@@ -746,7 +756,7 @@ section.banner {
     background-image: url(../img/smallphone.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: -67px;
+    background-position-x: 0px;
     background-position-y: 0px;
     background-size: cover;
 }
@@ -766,47 +776,68 @@ section.banner {
     line-height: 41px;
 }
 .bandiv3 {
-    width: 85%;
-    margin: -304px 0px 0px 29px;
-    height: 230px;
+    width: 100%;
+    margin: -297px 0px 0px 0px;
+    height: 265px;
+    text-align: center;
 }
 .bandiv3 h2 {
     padding: 15px 0px 14px 0px;
     font-weight: 600;
+    font-size: 28px;
 }
 form {
     width: 100%;
 }
 
+.bandiv1st {
+    width: 100%;
+    float: left;
+}
+.bandiv2nd {
+    width: 100%;
+    float: left;
+    margin: 8px 0px;
+}
 label {
-    margin: 5px 6px 0px 7px;
-    font-size: 19px;
-    padding: 1px 0px 1px 7px;
+       font-size: 17px;
+    padding: 8px 2px 8px 4px;
+    width: 26%;
+    margin: 0px 0px 0px 0px;
 }
+
+
+
 input[type="text"] {
-    font-size: 15px;
-    margin-left: 7px;
-    padding: 12px 14px 12px 5px;
-    border-radius: 0px 0px 0px 0px;
+      font-size: 15px;
+    padding: 11px 0px 12px 5px;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
-    width: 179px;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 57%;
+    margin: 0px 0px 0px 0px;
 }
+
+
 input[type="email"] {
-    font-size: 15px;
-    margin-left: 41px;
-    padding: 12px 13px 12px 5px;
-    border-radius: 0px 0px 0px 0px;
+       font-size: 15px;
+    padding: 11px 0px 12px 5px;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
-    width: 180px;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 57%;
+    margin: 0px 0px 0px 0px;
 }
 input[type="submit"] {
     padding: 12px 0px 12px 0px;
-    font-size: 18px;
-    margin: 18px 90px 0px 90px;
+    font-size: 20px;
+    margin: 15px 43px 0px 0px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 1px 3px #1F1F1F;
 }
 .descript h1 {
     padding: 0px 8px 0px 8px;
-    margin: -400px 0px 0px 0px;
+    margin: -444px 0px 0px 0px;
     font-size: 20px;
 }
 .descript1 button {
@@ -856,7 +887,7 @@ input[type="submit"] {
     font-weight: 600;
 }
 .descript3 p {
-    padding: 8px 10px 38px 10px;
+    padding: 8px 20px 38px 20px;
     font-size: 14px;
 }
 
@@ -915,51 +946,65 @@ section.banner {
     padding: 0px 5px 0px 5px;
 }
 .bandiv2 h2 {
-    font-size: 26px;
-    padding: 0px 10px 0px 10px;
+    font-size: 28px;
+    padding: 0px 22px 0px 22px;
     line-height: 37px;
 }
 .bandiv3 {
-    width: 85%;
-    margin: -333px 0px 0px 25px;
+    width: 100%;
+    margin: -398px 0px 0px 0px;
     height: 230px;
 }
-
 .bandiv3 h2 {
     padding: 15px 0px 14px 0px;
     font-weight: 600;
+    font-size: 30px;
 }
 form {
     width: 100%;
 }
+.bandiv1st {
+    width: 100%;
+}
+.bandiv2nd {
+    width: 100%;
+}
+
+
 
 label {
-    margin: 4px 10px 0px 11px;
     font-size: 16px;
-    padding: 0px 0px 0px 6px;
+    width: 28%;
+    padding: 7px 0px 7px 0px;
+    float: left;
 }
-
+.email {
+    padding: 0px 34px 0px 0px;
+}
 input[type="text"] {
     font-size: 14px;
-    margin-left: 4px;
-    padding: 10px 0px 10px 6px;
-    width: 164px;
-    border-radius: 0px 0px 0px 0px;
+    padding: 11px 0px 11px 7px;
+    width: 52%;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
+    float: left;
+    box-shadow: 3px 2px 5px -1px #1f1f1f;
 }
-
 input[type="email"] {
     font-size: 14px;
-    margin-left: 35px;
-    padding: 10px 15px 10px 4px;
-    width: 151px;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 4px 4px 0px;
     border: 0px solid;
+    float: left;
+    padding: 11px 0px 11px 7px;
+    width: 52%;
+    box-shadow: 3px 2px 4px -1px #1f1f1f;
 }
 input[type="submit"] {
-    padding: 9px 0px 9px 0px;
-    font-size: 15px;
-    margin: 30px 80px 0px 80px;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    margin: 10px 36px 0px 0px;
+    box-shadow: 0px 1px 2px #1F1F1F;
+    border-radius: 18px 18px 18px 18px;
 }
 .descript h1 {
     padding: 0px 0px 0px 0px;
@@ -1019,148 +1064,6 @@ input[type="submit"] {
 
 .footer1 i {
     font-size: 12px;
-}
-
-}
-@media only screen and (max-width: 317px){
-    /*317 width*/
-label {
-    margin: 4px 6px 0px 12px;
-    font-size: 16px;
-    padding: 0px 0px 0px 6px;
-}
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 34px;
-    padding: 10px 13px 10px 3px;
-    width: 155px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 4px;
-    padding: 10px 0px 10px 6px;
-    width: 165px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-
-}
-@media only screen and (max-width: 314px){
-    /*314 width*/
-
-.bandiv2 h2 {
-    font-size: 26px;
-    padding: 0px 0px 0px 0px;
-    line-height: 37px;
-}
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 33px;
-    padding: 10px 8px 10px 7px;
-    width: 155px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 4px;
-    padding: 10px 0px 10px 6px;
-    width: 164px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-
-}
-@media only screen and (max-width: 312px){
-    /*312 width*/
-label {
-    margin: 4px 11px 0px 12px;
-    font-size: 16px;
-    padding: 0px 0px 0px 6px;
-}
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 4px;
-    padding: 10px 0px 10px 6px;
-    width: 155px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 34px;
-    padding: 10px 8px 10px 7px;
-    width: 146px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-
-}
-@media only screen and (max-width: 308px){
-/*308 width*/
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 4px;
-    padding: 10px 0px 10px 6px;
-    width: 153px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 34px;
-    padding: 10px 8px 10px 7px;
-    width: 144px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-}
-@media only screen and (max-width: 306px){
-    /*306 width*/
-    .bandiv2 h2 {
-    font-size: 26px;
-    padding: 0px 30px 0px 30px;
-    line-height: 37px;
-}
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 1px;
-    padding: 10px 0px 10px 6px;
-    width: 153px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 31px;
-    padding: 10px 8px 10px 7px;
-    width: 144px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-    
-    }
-@media only screen and (max-width: 302px){
-/*302*/
-
-input[type="text"] {
-    font-size: 14px;
-    margin-left: 0px;
-    padding: 10px 0px 10px 6px;
-    width: 142px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
-}
-
-input[type="email"] {
-    font-size: 14px;
-    margin-left: 30px;
-    padding: 10px 8px 10px 7px;
-    width: 133px;
-    border-radius: 0px 0px 0px 0px;
-    border: 0px solid;
 }
 
 }
