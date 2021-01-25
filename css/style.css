@@ -113,11 +113,12 @@ background-color: #8D6025;
 
 color: white;
 
-margin: 8px 0px 0px 47px;
+margin: 8px 0px 0px 35px;
 
 padding: 0px 0px 0px 9px;
 
 font-size: 19px;
+
 box-shadow: 0px 1px 3px #1F1F1F;
 }
 label:hover{
@@ -129,14 +130,13 @@ input[type="text"] {
     padding: 12px 144px 12px 7px;
 }
 input[type="submit"] {
-    margin: 33px 130px 0px 182px;
+    margin: 33px 135px 0px 169px;
     text-align: center;
-    padding: 13px 25px 13px 25px;
+    padding: 14px 25px 14px 25px;
     font-size: 20px;
     color: white;
     background: #c18639;
     border: 0px solid;
-    
 }
 input[type="submit"]:hover{
 box-shadow: 0px 1px 2px 2px #000000ad;
