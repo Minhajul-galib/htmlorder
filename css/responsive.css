@@ -501,6 +501,7 @@ input[type="text"] {
     padding: 10px 16px 10px 7px;
     border-radius: 0px 0px 0px 0px;
     border: 0px solid;
+    width: 242px;
 }
 .descript h1 {
     margin: -337px 0px 70px 0px;
@@ -512,6 +513,7 @@ input[type="email"] {
     padding: 10px 16px 10px 6px;
     border-radius: 0px 0px 0px 0px;
     border: 0px solid;
+    width: 245px;
 }
 input[type="submit"] {
     padding: 12px 50px 12px 50px;
@@ -634,6 +636,7 @@ input[type="text"] {
     padding: 10px 14px 10px 5px;
     border-radius: 0px 0px 0px 0px;
     border: 0px solid;
+    width: 195px;
 }
 input[type="email"] {
     font-size: 15px;
@@ -641,6 +644,7 @@ input[type="email"] {
     padding: 10px 13px 10px 5px;
     border-radius: 0px 0px 0px 0px;
     border: 0px solid;
+    width: 196px;
 }
 input[type="submit"] {
     padding: 9px 0px 9px 0px;
@@ -786,9 +790,9 @@ label {
 
 input[type="text"] {
     font-size: 14px;
-    margin-left: 6px;
+    margin-left: 4px;
     padding: 10px 0px 10px 6px;
-    width: 161px;
+    width: 164px;
     border-radius: 0px 0px 0px 0px;
     border: 0px solid;
 }
