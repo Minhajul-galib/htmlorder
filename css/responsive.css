@@ -1,3 +1,93 @@
+@media only screen and (max-width: 1280px){
+    /*Main width*/
+header {
+    width: 100%;
+    height: 121px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 36%;
+}
+.logo img {
+    width: 143px;
+    height: 118px;
+    padding-left: 34px;
+}
+
+.menu {
+    width: 64%;
+}
+.menu img {
+    width: 480px;
+    height: 69px;
+    margin-left: 164px;
+    margin-top: 10px;
+}
+.bandiv4 {
+    width: 1.5%;
+}
+.bandiv3 {
+    width: 48.5%;
+}.bandiv2 {
+    width: 48.5%;
+}
+.bandiv2 h1 {
+    font-size: 28px;
+}
+.bandiv2 h2 {
+    font-size: 54px;
+    line-height: 57px;
+}
+.bandiv1 {
+    width: 1.5%;
+}
+.descript {
+    width: 100%;
+}
+.descript h1 {
+    font-size: 36px;
+}
+.descript1 {
+    width: 33.33%;
+}
+.descript1 h2 {
+    font-size: 24px;
+}
+.descript1 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript2 {
+    width: 33.33%;
+}
+.descript2 h2 {
+    font-size: 24px;
+}
+.descript2 p {
+    padding: 20px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.descript3 {
+    width: 33.33%;
+}
+.descript3 h2 {
+    font-size: 24px;
+}
+.descript3 p {
+    padding: 20px 15px 40px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+}
+
 @media only screen and (max-width: 1024px){
     /*Main width*/
 header {
@@ -119,14 +209,36 @@ header {
 }
 .bandiv3 {
     width: 48.5%;
-}.bandiv2 {
+}
+label {
+    width: 30%;
+    font-size: 21px;
+    padding: 13px 0px 13px 0px;
+    box-shadow: -1px 1px 6px -1px #000000;
+}
+input[type="text"] {
+    width: 68%;
+    padding: 14px 0px 14px 7px;
+    font-size: 19px;
+    box-shadow: 3px 1px 6px -2px #000000;
+}
+input[type="email"]{
+    width: 68%;
+    padding: 14px 0px 14px 7px;
+    font-size: 19px;
+    box-shadow: 3px 1px 6px -2px #000000; 
+}
+.bandiv2 {
     width: 48.5%;
 }
-.bandiv2 h1 {
-    font-size: 34px;
-}
 .bandiv2 h2 {
-    font-size: 44px;
+    font-size: 46px;
+    line-height: 57px;
+    padding: 0px 30px 0px 30px;
+}
+.bandiv2 h1 {
+    font-size: 26px;
+    padding: 100px 0px 0px 0px;
 }
 .bandiv1 {
     width: 1.5%;
@@ -135,14 +247,15 @@ header {
     width: 100%;
 }
 .descript h1 {
-    margin: 42px 0px 53px 0px;
-    font-size: 36px;
+    margin: -431px 50px 74px 50px;
+    font-size: 29px;
 }
 .descript1 {
     width: 33.33%;
 }
 .descript1 h2 {
-    font-size: 24px;
+    font-size: 21px;
+    padding: 0px 40px 0px 40px;
 }
 .descript1 p {
     padding: 20px 15px 0px 15px;
@@ -154,7 +267,9 @@ header {
     width: 33.33%;
 }
 .descript2 h2 {
-    font-size: 24px;
+    font-size: 21px;
+    padding: 0px 40px 0px 40px;
+
 }
 .descript2 p {
     padding: 20px 15px 0px 15px;
@@ -166,7 +281,8 @@ header {
     width: 33.33%;
 }
 .descript3 h2 {
-    font-size: 24px;
+    font-size: 21px;
+    padding: 0px 40px 0px 40px;
 }
 .descript3 p {
     padding: 20px 15px 40px 15px;
@@ -175,6 +291,147 @@ header {
 }
 
 
+
+@media only screen and (max-width: 822px){
+/*991 WIDTH*/
+
+header {
+    width: 100%;
+    height: 170px;
+}
+.container {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    text-align: center;
+}
+.logo img {
+    width: 225px;
+    height: 171px;
+    padding-left: 0px;
+}
+.menu {
+    width: 100%;
+}
+.menu img {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+section.banner {
+    width: 100%;
+    height: 1038px;
+    background-image: url(../img/tablogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.bandiv1 {
+    width: 0%;
+}
+.bandiv2 {
+    width: 100%;
+    padding-top: 90px;
+}
+.bandiv2 h1 {
+    padding: 0px 0px 0px 0px;
+    font-size: 28px;
+}
+
+.bandiv3 {
+    width: 90%;
+    margin: -180px 0px 0px 36px;
+    text-align: center;
+    height: 377px;
+    box-shadow: 0px 0px 2px 0px #FFFFFF;
+}
+label {
+    font-size: 23px;
+    padding: 14px 10px 14px 0px;
+    width: 19%;
+    box-shadow: 0px 0px 6px 0px #1f1f1f;
+}
+.bandiv1st {
+    margin: 0px 0px 0px 40px;
+}
+.bandiv2nd {
+    margin: 0px 0px 0px 40px;
+}
+label:hover{
+box-shadow: 0px 1px 6px #FFFFFF;
+}
+
+
+.descript h1 {
+    margin: -410px 50px 60px 50px;
+    font-size: 37px;
+    line-height: 37px;
+}
+form {
+    width: 100%;
+}
+input[type="text"] {
+    font-size: 19px;
+    padding: 15px 0px 15px 5px;
+    border-radius: 0px 4px 4px 0px;
+    border: 0px solid;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 64.5%;
+    margin: 0px 0px 10px 0px;
+}
+
+input[type="email"] {
+    font-size: 19px;
+    padding: 15px 0px 15px 5px;
+    border-radius: 0px 4px 4px 0px;
+    border: 0px solid;
+    box-shadow: 3px 1px 6px -1px #1f1f1f;
+    width: 64.5%;
+    margin: 0px 0px 0px 0px;
+}
+input[type="submit"] {
+    padding: 11px 0px 11px 0px;
+    font-size: 27px;
+    width: 22%;
+    margin: 10px 27px 0px 0px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 1px 3px #1F1F1F;
+}
+
+input[type="submit"]:hover{
+box-shadow: 0px 1px 2px 2px #000000ad;
+}
+.descript {
+    width: 100%;
+}
+.descript1 {
+    width: 100%;
+}
+.descript1 p {
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
+}
+.descript2 {
+    width: 100%;
+}
+.descript2 p {
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
+}
+.descript3 {
+    width: 100%;
+}
+.descript3 p {
+    padding: 20px 90px 60px 90px;
+    font-size: 20px;
+}
+.footer1 i {
+    font-size: 18px;
+}
+   }
 
 }
 
@@ -206,11 +463,12 @@ header {
 
 section.banner {
     width: 100%;
-    height: 1210px;
+    height: 1038px;
     background-image: url(../img/tablogo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+   
 }
 
 .bandiv1 {
@@ -221,31 +479,28 @@ section.banner {
     padding-top: 90px;
 }
 .bandiv2 h1 {
-    padding: 104px 0px 0px 0px;
-    font-size: 34px;
-}
-.bandiv2 h1 {
     padding: 0px 0px 0px 0px;
-    font-size: 32px;
+    font-size: 28px;
 }
+
 .bandiv3 {
-    width: 80%;
-    margin: 0px 0px 0px 80px;
+    width: 90%;
+    margin: -180px 0px 0px 36px;
     text-align: center;
     height: 377px;
     box-shadow: 0px 0px 2px 0px #FFFFFF;
 }
 label {
-       font-size: 17px;
-    padding: 8px 2px 8px 4px;
-    width: 26%;
-    margin: 0px 0px 0px 0px;
+    font-size: 23px;
+    padding: 14px 10px 14px 0px;
+    width: 19%;
+    box-shadow: 0px 0px 6px 0px #1f1f1f;
 }
 .bandiv1st {
-    margin: 0px 0px 0px -12px;
+    margin: 0px 0px 0px 40px;
 }
 .bandiv2nd {
-    margin: 0px 0px 0px -12px;
+    margin: 0px 0px 0px 40px;
 }
 label:hover{
 box-shadow: 0px 1px 6px #FFFFFF;
@@ -253,36 +508,37 @@ box-shadow: 0px 1px 6px #FFFFFF;
 
 
 .descript h1 {
-    margin: 40px 50px 60px 50px;
+    margin: -410px 50px 60px 50px;
     font-size: 37px;
+    line-height: 37px;
 }
 form {
     width: 100%;
 }
 input[type="text"] {
-    font-size: 15px;
-    padding: 11px 0px 12px 5px;
+    font-size: 19px;
+    padding: 15px 0px 15px 5px;
     border-radius: 0px 4px 4px 0px;
     border: 0px solid;
     box-shadow: 3px 1px 6px -1px #1f1f1f;
-    width: 59%;
+    width: 64.5%;
     margin: 0px 0px 10px 0px;
 }
 
-
 input[type="email"] {
-       font-size: 15px;
-    padding: 11px 0px 12px 5px;
+    font-size: 19px;
+    padding: 15px 0px 15px 5px;
     border-radius: 0px 4px 4px 0px;
     border: 0px solid;
     box-shadow: 3px 1px 6px -1px #1f1f1f;
-    width: 59%;
+    width: 64.5%;
     margin: 0px 0px 0px 0px;
 }
 input[type="submit"] {
-    padding: 12px 0px 12px 0px;
-    font-size: 20px;
-    margin: 15px 43px 0px 0px;
+    padding: 11px 0px 11px 0px;
+    font-size: 27px;
+    width: 39%;
+    margin: 10px 47px 0px 0px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 3px #1F1F1F;
 }
@@ -320,6 +576,36 @@ box-shadow: 0px 1px 2px 2px #000000ad;
    }
 
 
+@media only screen and (max-width: 669px) {
+  /* For tab phones: */
+
+label {
+    width: 20%;
+}
+   }
+
+@media only screen and (max-width: 638px) {
+  /* For tab phones: */
+
+label {
+    width: 24%;
+}
+.bandiv1st {
+    margin: 0px 0px 0px -18px;
+}
+
+.bandiv2nd {
+    margin: 0px 0px 0px -18px;
+}
+
+
+   }
+
+@media only screen and (max-width: 495px){
+label {
+    width: 25%;
+}
+}
 @media only screen and (max-width: 480px){
   /* For mobile phones: */
 header {
@@ -435,7 +721,8 @@ input[type="email"] {
 input[type="submit"] {
     padding: 12px 0px 12px 0px;
     font-size: 20px;
-    margin: 15px 43px 0px 0px;
+    width: 35%;
+    margin: 17px 52px 0px 0px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 3px #1F1F1F;
 }
@@ -531,7 +818,7 @@ section.banner {
 
 .bandiv2 h1 {
     font-size: 23px;
-    margin: -140px 0px 0px 0px;
+    margin: -37px 0px 0px 0px;
 }
 .bandiv2 h2 {
     padding: 30px 10px 0px 10px;
@@ -588,7 +875,8 @@ input[type="email"] {
 input[type="submit"] {
     padding: 12px 0px 12px 0px;
     font-size: 20px;
-    margin: 15px 43px 0px 0px;
+    margin: 15px 42px 0px 0px;
+    width: 38%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 3px #1F1F1F;
 }
@@ -733,7 +1021,8 @@ input[type="email"] {
 input[type="submit"] {
     padding: 12px 0px 12px 0px;
     font-size: 20px;
-    margin: 15px 43px 0px 0px;
+    width: 39%;
+    margin: 15px 42px 0px 0px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 3px #1F1F1F;
 }
@@ -910,7 +1199,8 @@ input[type="email"] {
 input[type="submit"] {
     padding: 12px 0px 12px 0px;
     font-size: 20px;
-    margin: 15px 43px 0px 0px;
+    width: 42%;
+    margin-top: 15px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 3px #1F1F1F;
 }
@@ -1083,8 +1373,9 @@ input[type="email"] {
 }
 input[type="submit"] {
     padding: 10px 0px 10px 0px;
+    width: 40%;
     font-size: 18px;
-    margin: 10px 36px 0px 0px;
+    margin-top: 10px;
     box-shadow: 0px 1px 2px #1F1F1F;
     border-radius: 18px 18px 18px 18px;
 }
